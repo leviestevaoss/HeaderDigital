@@ -60,16 +60,15 @@
 }
 
 nav a{
-    text-decoration: none;
+    text-decoration:none;
     color: #333;
     padding-right: 25px;
     transition: color 0.3s ease; 
 }
 
-nav a:hover{
+nav a.active{
     color: #c92071;
 }
- 
 
 
  
