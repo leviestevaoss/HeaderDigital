@@ -23,12 +23,13 @@ export default function Header(){
                 </div>
 
                 <div className="row">
-                    <div className="col">
+                    <div className="col py-4">
+                        
                         <nav className="navbox">
-                            <a href="#" className="linksSetup">Home</a>
-                            <a href="#" className="linksSetup">Produtos</a>
-                            <a href="#" className="linksSetup">Categorias</a>
-                            <a href="#" className="linksSetup">Meus Produtos</a>
+                            <a href="#">Home</a>
+                            <a href="#">Produtos</a>
+                            <a href="#">Categorias</a>
+                            <a href="#">Meus Produtos</a>
                         </nav>
                     </div>
                 </div>

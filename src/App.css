@@ -59,10 +59,22 @@
     opacity: 0px;
 }
 
-.linksSetup {
+nav a{
     text-decoration: none;
-    color: #474747;
+    color: #333;
     padding-right: 25px;
-  }
+    transition: color 0.3s ease; 
+}
+
+nav a:hover{
+    color: #c92071;
+}
+ 
+
+
+ 
+  
+
+
   
 
