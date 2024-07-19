@@ -63,11 +63,13 @@ nav a{
     text-decoration:none;
     color: #333;
     padding-right: 25px;
+    margin: 1px solid #c92071;
     transition: color 0.3s ease; 
 }
 
-nav a.active{
+nav a.active.navbox{
     color: #c92071;
+    list-style: inside;
 }
 
 

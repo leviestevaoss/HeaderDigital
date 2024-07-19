@@ -1,10 +1,12 @@
-import Logo from "./Img/LogoDigital.png"
-import Carrinho from "./Img/CarrinhoDigital.png"
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
-export default function Header(){
-    return(
-        <>
-        <header className="boxheader">
+
+// IMPORTANTE!: nome da classe em maiusculo
+function Header() {
+  return (
+    <>
+    <header className="boxheader">
             <div className="container p-3">
                 <div className="row d-flex align-items-center">
                     <div className="col-10 d-flex justify-content-between">
@@ -24,17 +26,18 @@ export default function Header(){
 
                 <div className="row">
                     <div className="col py-4">
-                        
                         <nav className="navbox">
-                            <a href="#">Home</a>
-                            <a href="#">Produtos</a>
-                            <a href="#">Categorias</a>
-                            <a href="#">Meus Produtos</a>
+                            <Link to="/Home">Home</Link>  
+                            <Link to="/Produtos">Produtos</Link>
+                            <Link to="/Categorias"></Link>
+                            <Link to="/Meus Produtos"></Link>
                         </nav>
                     </div>
                 </div>
             </div>
         </header>
-        </>
-    )
-}
+    </>
+  );
+};
+
+export default Header;
